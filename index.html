@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" />
+    <title>Validação de Números</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Chat Anônimo!</h1>
+        <form id="my-form">
+            <textarea placeholder="Sua menssagem" required id="descricao"></textarea>
+            <h3>A mensagem será enviada somente se o número B for maior do que o número A.</h3>
+            <input type="number" id="numberOne" required placeholder="Campo A" />
+            <input type="number" id="numberTwo" required placeholder="Campo B" />
+            <button type="submit" id="btn">Enviar</button>
+        </form>
+        <p class="menssage-success">Mensagem enviada com sucesso!</p>
+        <p class="menssage-error">A mensagem será enviada somente se o número B for maior do que o número A.</p>
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
